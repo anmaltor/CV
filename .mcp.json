@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "n8n": {
+      "command": "npx",
+      "args": ["@n8n/mcp-server"],
+      "env": {
+        "N8N_INSTANCE_URL": "https://anmaltor.app.n8n.cloud"
+      }
+    }
+  }
+}
