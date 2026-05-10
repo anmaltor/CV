@@ -1,10 +1,10 @@
 {
   "mcpServers": {
     "n8n": {
-      "command": "npx",
-      "args": ["@n8n/mcp-server"],
-      "env": {
-        "N8N_INSTANCE_URL": "https://anmaltor.app.n8n.cloud"
+      "type": "http",
+      "url": "https://anmaltor.app.n8n.cloud/mcp-server/http",
+      "headers": {
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIwZjU2Y2Q1YS02ODFiLTQ4NmQtYjg3ZS1jYTA2ODRkMzYwMDYiLCJpc3MiOiJuOG4iLCJhdWQiOiJtY3Atc2VydmVyLWFwaSIsImp0aSI6IjA1NmZkZWUyLTliNDQtNDRiMC1hOTYwLTAwNmRiYWZmNjZlNiIsImlhdCI6MTc3ODQzOTM0Mn0.cS8BaG_FEsFlF2T1ZarKWSnAmkohZYSn886znd3DCDg"
       }
     }
   }
